@@ -17,6 +17,7 @@
     "react-router-dom": "^6.28.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "react-scripts": "^4.0.3"
   },
   "browserslist": {

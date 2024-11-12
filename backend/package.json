@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/Atulshere18/Project",
+
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
